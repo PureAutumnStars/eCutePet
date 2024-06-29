@@ -35,13 +35,13 @@ __开发人员：__ 林枭熠、苗梓萌、王梓健
 
 + 启动 `celery` 服务
 
-+ 启动消费者进程，在 `./backend` 目录下新建终端，输入指令：
++ 启动 beat 进程，在 `./backend` 目录下新建终端，输入指令：
 
     ```terminal OR cmd
     celery -A E_djangoProject worker -l info
     ```
         
-+ 启动生产者进程，在 `./backend` 目录下新建终端，输入指令：
++ 启动 worker 进程，在 `./backend` 目录下新建终端，输入指令：
 
     + 对于 Linux 系统
 
